@@ -49,14 +49,14 @@ body {
 /* ---------- Top bar ---------- */
 
 .topbar { background: var(--navy); color: #d6d6d6; font-size: 13px; }
-.topbar-inner { display: flex; justify-content: space-between; align-items: center; padding-top: 9px; padding-bottom: 9px; }
+.topbar-inner { display: flex; justify-content: space-between; align-items: center; padding-top: 2px; padding-bottom: 2px; }
 .topbar .dot { margin: 0 8px; color: var(--gold); }
 .topbar-phone { color: #fff; font-weight: 700; text-decoration: none; letter-spacing: 0.02em; }
 
 /* ---------- Header ---------- */
 
-.site-header { background: #153e7e; border-bottom: 1px solid var(--line); }
-.header-inner { display: flex; justify-content: space-between; align-items: center; padding-top: 8px; padding-bottom: 0px; }
+.site-header { background: #fff; border-bottom: 1px solid var(--line); }
+.header-inner { display: flex; justify-content: space-between; align-items: center; padding-top: 8px; padding-bottom: 8px; }
 .logo { text-decoration: none; color: var(--navy); }
 .logo-text { font-family: Georgia, "Times New Roman", Times, serif; font-weight: 700; font-size: 24px; letter-spacing: 0.01em; }
 .logo-amp { color: var(--gold); }
