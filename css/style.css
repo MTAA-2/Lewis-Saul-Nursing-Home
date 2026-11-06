@@ -149,14 +149,14 @@ body {
 }
 }
 .section-parallax-info1 {
-  --overlay-rgb: 21, 62, 126;     /* overlay color as R, G, B — the sample's dark navy #153e7e */
-  --overlay-opacity: 0.75;        /* overlay strength */
+  --overlay-rgb: 255, 255, 255;     /* overlay color as R, G, B — the sample's dark navy #153e7e */
+  --overlay-opacity: 0.85;        /* overlay strength */
   background-image:
     linear-gradient(
       rgba(var(--overlay-rgb), var(--overlay-opacity)),
       rgba(var(--overlay-rgb), var(--overlay-opacity))
     ),
-    url("YOUR-IMAGE-URL-HERE-2");   /* placeholder — replace with the image URL to be provided */
+    url("https://familyjusticeclaim.com/images/scales-of-justice.jpg");   /* placeholder — replace with the image URL to be provided */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
