@@ -134,7 +134,7 @@ body {
       rgba(var(--overlay-rgb), var(--overlay-opacity)),
       rgba(var(--overlay-rgb), var(--overlay-opacity))
     ),
-    url("YOUR-IMAGE-URL-HERE");   /* placeholder — replace with the image URL to be provided */
+    url("https://familyjusticeclaim.com/images/resident2.png");   /* placeholder — replace with the image URL to be provided */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
