@@ -56,7 +56,7 @@ body {
 /* ---------- Header ---------- */
 
 .site-header { background: #fff; border-bottom: 1px solid var(--line); }
-.header-inner { display: flex; justify-content: space-between; align-items: center; padding-top: 8px; padding-bottom: 8px; }
+.header-inner { display: flex; justify-content: space-between; align-items: center; padding-top: 8px; padding-bottom: 0px; }
 .logo { text-decoration: none; color: var(--navy); }
 .logo-text { font-family: Georgia, "Times New Roman", Times, serif; font-weight: 700; font-size: 24px; letter-spacing: 0.01em; }
 .logo-amp { color: var(--gold); }
@@ -97,12 +97,14 @@ body {
 }
 
 .hero-eyebrow {
-  color: var(--gold-light);
+  color: var(--navy);
   font-size: 13px;
   font-weight: 800;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   margin: 0 0 14px;
+  padding-top:15px;
+  padding-bottom: 15px;
 }
 
 .hero-title {
@@ -112,7 +114,7 @@ body {
   margin: 0 0 18px;
 }
 
-.hero-sub { color: #d9d9d9; font-size: 18px; margin: 0 0 26px; max-width: 540px; }
+.hero-sub { color: #000; font-size: 18px; margin: 0 0 26px; max-width: 540px; }
 
 .hero-badges { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 10px; }
 .hero-badges li {
@@ -121,14 +123,14 @@ body {
   padding: 7px 14px;
   font-size: 13px;
   font-weight: 600;
-  color: #f2f2f2;
+  color: var(--navy);
 }
 
 /* Section with full-bleed background image, parallax scroll,
    and a color overlay. Adjust --overlay-opacity: 0 = no tint, 1 = solid color. */
 .section-parallax {
-  --overlay-rgb: 21, 29, 46;     /* overlay color as R, G, B — the sample's dark navy #153e7e */
-  --overlay-opacity: 0.65;        /* overlay strength */
+  --overlay-rgb: 255, 255, 255;     /* overlay color as R, G, B — the sample's dark navy #153e7e */
+  --overlay-opacity: 0.75;        /* overlay strength */
   background-image:
     linear-gradient(
       rgba(var(--overlay-rgb), var(--overlay-opacity)),
@@ -139,7 +141,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;   /* this line is the parallax effect */
-  color: #fff;                    /* text over a dark overlay */
+  color: #000;                    /* text over a dark overlay */
 
 
 /* iOS Safari ignores background-attachment: fixed — fall back to a normal scroll */
